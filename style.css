@@ -114,6 +114,11 @@ a, button, [role="button"] {
 }
 .skip-link:focus { top: var(--space-4); }
 
+/* Make sections fully visible below sticky header when using # links */
+section[id] {
+  scroll-margin-top: 6rem;
+}
+
 /* LAYOUT */
 .container {
   width: 90%;
@@ -186,7 +191,6 @@ a, button, [role="button"] {
 }
 .logo-text-fallback {
   margin-left: var(--space-2);
-  font-family: var(--font-display);
   font-size: var(--text-lg);
   font-weight: 700;
   color: var(--gold);
@@ -260,7 +264,7 @@ a, button, [role="button"] {
   color: #fff;
   padding: clamp(var(--space-16),10vw,var(--space-24)) 0 clamp(var(--space-12),8vw,var(--space-20));
   overflow: hidden;
-  min-height: 80vh;
+  min-height: 85vh;
   display: flex;
   align-items: center;
 }
@@ -321,7 +325,7 @@ a, button, [role="button"] {
   margin-top: var(--space-1);
 }
 
-/* SECTION GENERIC */
+/* SECTIONS */
 .section {
   padding: clamp(var(--space-12),8vw,var(--space-24)) 0;
 }
@@ -329,7 +333,7 @@ a, button, [role="button"] {
 .section-dark { background: var(--navy); color: #fff; }
 .section-navy { background: var(--navy-mid); color: #fff; }
 .section-teal {
-  background: linear-gradient(135deg, #00796b 0%, #00a896 100%);
+  background: linear-gradient(135deg,#00796b 0%,#00a896 100%);
   color: #fff;
 }
 .section-eyebrow {
@@ -360,7 +364,7 @@ a, button, [role="button"] {
   margin-bottom: var(--space-4);
 }
 .about-card-accent {
-  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+  background: linear-gradient(135deg,var(--navy),var(--navy-mid));
   color: #fff;
   border-radius: var(--radius-xl);
   padding: var(--space-8);
@@ -546,18 +550,6 @@ a, button, [role="button"] {
   color: rgba(255,255,255,0.8);
   margin-top: var(--space-2);
 }
-.team-links {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-2);
-  margin-top: var(--space-2);
-}
-.team-links a {
-  font-size: var(--text-xs);
-  color: var(--teal);
-  text-decoration: none;
-}
-.team-links a:hover { text-decoration: underline; color: #fff; }
 .team-expertise-tags {
   display: flex;
   flex-wrap: wrap;
@@ -726,7 +718,10 @@ a, button, [role="button"] {
   color: var(--color-text-muted);
   text-decoration: none;
 }
-.contact-item a:hover { color: var(--color-accent); text-decoration: underline; }
+.contact-item a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
 .contact-form-wrap {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
@@ -787,7 +782,7 @@ a, button, [role="button"] {
 }
 .footer-inner {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  grid-template-columns: 2fr 1fr 1.5fr;
   gap: var(--space-8);
   margin: 0 5% var(--space-8);
 }
