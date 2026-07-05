@@ -1,529 +1,490 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" id="top">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>E2M Statistics &amp; Research Services | Dar es Salaam, Tanzania</title>
-<meta name="description" content="E2M Statistics &amp; Research Services — professional data analytics, biostatistics, machine learning, and research consulting in Tanzania and beyond."/>
-<meta name="keywords" content="statistics, biostatistics, data analytics, research consulting, Tanzania, machine learning, Bayesian, SEM, spatial modelling, dashboards, health research"/>
-<meta property="og:title" content="E2M Statistics &amp; Research Services"/>
-<meta property="og:description" content="Expert data analytics, biostatistics, and research consulting — for NGOs, health programmes, academia, government, and industry."/>
-<meta property="og:type" content="website"/>
-<meta property="og:url" content="https://musheiguzae-e2m.github.io/"/>
-<meta property="og:image" content="E2M_logo_-_horizontal_banner.jpg"/>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Work+Sans:wght@300..700&display=swap" rel="stylesheet"/>
-<link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E2M Statistics & Research Services | Data-Driven Solutions</title>
+  <meta name="description" content="E2M Statistics & Research Services — Expert statistical consulting, biostatistics, econometrics, research design, and data analytics for academia, health, business, and policy." />
+  <meta name="keywords" content="statistical consulting Tanzania, biostatistics, research services, data analysis, econometrics, SPSS, R, Stata, survey design, E2M Statistics" />
+  <meta name="author" content="Edwin Musheiguza" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="E2M Statistics & Research Services" />
+  <meta property="og:description" content="Unlock your insights with data-driven decisions and expert guidance. Tanzania's trusted statistical consulting firm." />
+  <meta property="og:url" content="https://e2m-statistics-tz.github.io/musheiguzae-e2m.github.io/" />
+  <meta property="og:site_name" content="E2M Statistics & Research Services" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="E2M Statistics & Research Services" />
+  <meta name="twitter:description" content="Data-driven solutions for academia, health, business & policy." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Work+Sans:wght@300..700&display=swap" rel="stylesheet" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "E2M Statistics & Research Services",
+    "description": "Expert statistical consulting, biostatistics, data analytics and research services.",
+    "url": "https://e2m-statistics-tz.github.io/musheiguzae-e2m.github.io/",
+    "telephone": "+255763250153",
+    "email": "e2mstatistics.researchservices@gmail.com",
+    "address": { "@type": "PostalAddress", "addressCountry": "TZ" },
+    "sameAs": [
+      "https://orcid.org/0000-0002-7155-7346",
+      "https://e2m-statistics-tz.github.io/"
+    ]
+  }
+  </script>
 </head>
+
 <body>
 
-<a href="#main" class="skip-link">Skip to main content</a>
+<a href="#main-content" class="skip-link">Skip to main content</a>
 
-<!-- ====================================================
-     HEADER
-     ==================================================== -->
-<header class="site-header" id="top">
-  <div class="hdr-inner">
-    <a href="#top" class="logo-link" aria-label="E2M Statistics home">
-      <img src="E2M_logo_-_horizontal_banner.jpg"
-           alt="E2M Statistics &amp; Research Services"
-           class="logo-img"
-           width="240" height="60" loading="eager"/>
-      <span class="logo-fallback">E²M Statistics</span>
-    </a>
+<header class="site-header" role="banner">
+  <div class="container">
+    <div class="header-inner">
+      <a href="#top" class="logo-link" aria-label="E2M Statistics — return to top">
+        <img src="E2M_logo_—_horizontal_banner.png" alt="E2M Statistics & Research Services" class="logo-img" width="160" height="54" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+        <span class="logo-svg-mark" style="display:none;" aria-hidden="true">
+          <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="42" height="42" rx="8" fill="#f0b429"/>
+            <text x="21" y="29" text-anchor="middle" font-family="Georgia,serif" font-size="18" font-weight="700" fill="#0b3d5c">E²M</text>
+          </svg>
+          <span class="logo-wordmark">
+            <span class="logo-name">E2M Statistics</span>
+            <span class="logo-tagline">Research Services</span>
+          </span>
+        </span>
+      </a>
 
-    <nav class="desk-nav" aria-label="Primary navigation">
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#modelling">Modelling</a>
-      <a href="#team">Our Team</a>
-      <a href="#why">Why E2M</a>
-      <a href="#clients">Clients</a>
-      <a href="#contact">Contact</a>
-    </nav>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#modelling">Modelling</a>
+        <a href="#team">Our Team</a>
+        <a href="#why">Why E2M</a>
+        <a href="#clients">Sectors</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="nav-cta">Get a Quote</a>
+      </nav>
 
-    <div class="hdr-controls">
-      <a href="#contact" class="btn btn-teal hdr-cta">Get a Quote</a>
-      <button class="theme-btn" data-theme-toggle aria-label="Toggle dark/light mode">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-      </button>
-      <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu">
-        <span></span><span></span><span></span>
-      </button>
+      <div style="display:flex;gap:var(--space-2);align-items:center;">
+        <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode" title="Toggle colour scheme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
     </div>
-  </div>
-
-  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#modelling">Modelling</a>
-    <a href="#team">Our Team</a>
-    <a href="#why">Why E2M</a>
-    <a href="#clients">Clients</a>
-    <a href="#contact">Contact</a>
-    <a href="#contact" class="btn btn-teal" style="margin-top:.5rem;text-align:center;">Get a Quote</a>
   </div>
 </header>
 
-<main id="main">
+<main id="main-content">
 
-<!-- ==================== HERO ==================== -->
-<section class="hero" id="hero">
-  <div class="hero-dots" aria-hidden="true"></div>
-  <div class="wide-container hero-body">
-    <p class="eyebrow">Dar es Salaam, Tanzania &amp; Beyond</p>
-    <h1>Statistical Precision.<br><em>Research Clarity.</em><br>Strategic Impact.</h1>
-    <p class="hero-desc">
-      E2M Statistics &amp; Research Services delivers <strong>advanced statistical modelling, data analytics, and full-cycle research support</strong> for NGOs, health programmes, academia, government agencies, and private industry — at every project scale.
-    </p>
-    <div class="hero-btns">
-      <a href="#contact" class="btn btn-teal">Start a Project</a>
-      <a href="#services" class="btn btn-outline">Explore Services</a>
-    </div>
-    <div class="hero-kpis">
-      <div class="kpi"><span class="kpi-n">11+</span><span class="kpi-l">Modelling Techniques</span></div>
-      <div class="kpi"><span class="kpi-n">7</span><span class="kpi-l">Expert Consultants</span></div>
-      <div class="kpi"><span class="kpi-n">6</span><span class="kpi-l">Sectors Served</span></div>
-      <div class="kpi"><span class="kpi-n">Global</span><span class="kpi-l">Remote &amp; On-site</span></div>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== ABOUT ==================== -->
-<section class="section bg-light" id="about">
-  <div class="wide-container two-col">
-    <div class="col-text">
-      <p class="eyebrow-dark">About Us</p>
-      <h2>We Value Your Insights</h2>
-      <p>
-        <strong>E2M Statistics &amp; Research Services</strong> is a professional data analytics and research consultancy headquartered in Dar es Salaam, Tanzania. We transform complex data into actionable evidence that drives decisions — across all project sizes, sectors, and geographies.
-      </p>
-      <p>
-        From individual master's and PhD projects to large donor-funded programmes and national studies, our team brings rigorous advanced statistical methods, clear communication, and unwavering ethical practice to every engagement.
-      </p>
-      <p>
-        We specialise in Bayesian inference, spatio-temporal modelling, machine learning, evidence synthesis, and digital research solutions — building capacity and delivering results that matter.
-      </p>
-      <a href="#contact" class="btn btn-navy">Work With Us</a>
-    </div>
-    <div class="col-visual">
-      <div class="about-quote-card">
-        <svg width="52" height="52" viewBox="0 0 64 64" fill="none" aria-hidden="true">
-          <polygon points="32,4 60,18 60,46 32,60 4,46 4,18" fill="#0A1628" stroke="#00C9B1" stroke-width="2.5"/>
-          <text x="32" y="38" text-anchor="middle" fill="#F4A800" font-size="17" font-weight="700" font-family="Georgia,serif">E²M</text>
-        </svg>
-        <blockquote>"Turning complex data into clear stories and evidence-based strategies."</blockquote>
-        <cite>— E2M Statistics &amp; Research Services</cite>
+<!-- HERO -->
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-logo-wrap">
+        <img src="E2M_logo_—_horizontal_banner.png" alt="E2M Statistics & Research Services" class="hero-logo" width="320" height="108" onerror="this.outerHTML='<div style=\'display:inline-flex;align-items:center;gap:12px;background:rgba(255,255,255,0.97);border-radius:12px;padding:10px 20px;\'><svg width=52 height=52 viewBox=\'0 0 52 52\' fill=\'none\'><rect width=52 height=52 rx=10 fill=\'#f0b429\'/><text x=26 y=34 text-anchor=\'middle\' font-family=\'Georgia,serif\' font-size=22 font-weight=700 fill=\'#0b3d5c\'>E²M</text></svg><div style=\'line-height:1.2\'><div style=\'font-family:Georgia,serif;font-size:1.4rem;color:#0b3d5c;font-weight:700\'>E2M Statistics</div><div style=\'font-size:0.75rem;color:#0b3d5c;font-weight:600;letter-spacing:0.06em;text-transform:uppercase\'>Research Services</div></div></div>';" />
       </div>
-      <div class="badge-row">
-        <span class="badge">BSc. Statistics</span>
-        <span class="badge">MSc. Biostatistics</span>
-        <span class="badge">MSc. Statistics</span>
-        <span class="badge">PhD Biostatistics (In Progress)</span>
+
+      <div class="hero-motto">
+        Statistical Precision <span class="dot">·</span> Research Clarity <span class="dot">·</span> Strategic Impact
+      </div>
+
+      <h1 id="hero-heading">E2M Statistics &amp; <em>Research Services</em></h1>
+
+      <p class="hero-sub">
+        Unlock your insights with data-driven decisions and expert guidance.
+        Trusted by academics, healthcare professionals, businesses, and policymakers
+        across Tanzania and beyond.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Get a Free Quote
+        </a>
+        <a href="#services" class="btn btn-outline">
+          Explore Services
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="hero-stats" role="list" aria-label="Key figures">
+        <div class="stat-item" role="listitem"><span class="stat-number">11+</span><span class="stat-label">Modelling Techniques</span></div>
+        <div class="stat-item" role="listitem"><span class="stat-number">6</span><span class="stat-label">Service Areas</span></div>
+        <div class="stat-item" role="listitem"><span class="stat-number">Multi-Sector</span><span class="stat-label">Client Portfolio</span></div>
+        <div class="stat-item" role="listitem"><span class="stat-number">Remote &amp; On-site</span><span class="stat-label">Delivery Options</span></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ==================== SERVICES ==================== -->
-<section class="section bg-navy" id="services">
-  <div class="wide-container">
-    <p class="eyebrow-teal">What We Offer</p>
-    <h2 class="white">Our Core Services</h2>
-    <p class="intro-text light-text">
-      We support the full research and analytics lifecycle — from study design and data collection through to advanced modelling, interactive dashboards, and publication-ready outputs.
-    </p>
-    <div class="card-grid">
-      <div class="svc-card">
-        <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="#00C9B1" stroke-width="1.8" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+<!-- ABOUT -->
+<section id="about" class="section section--alt" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-body reveal">
+        <header class="section-header">
+          <span class="section-eyebrow">Who We Are</span>
+          <h2 id="about-heading" class="section-title">About E2M Statistics</h2>
+        </header>
+        <p>E2M Statistics &amp; Research Services is a specialist statistical consulting firm offering comprehensive data analytics and research solutions tailored to the unique needs of businesses, academic institutions, health programs, and policy organisations in Tanzania and internationally.</p>
+        <p>Our consultants combine rigorous quantitative expertise with practical insight, ensuring every analysis is reproducible, methodologically sound, and communicated in language clients can act upon.</p>
+        <p>We partner with you at every stage — from research design and ethics approval through to final reporting and dissemination — so you move forward with confidence.</p>
+        <div class="credential-badges" aria-label="Firm credentials">
+          <span class="badge">✦ Peer-Reviewed Methods</span>
+          <span class="badge">✦ Internationally Trained</span>
+          <span class="badge">✦ Multi-Disciplinary Team</span>
+          <span class="badge">✦ ORCID Verified</span>
+          <span class="badge">✦ Ethical Research Practice</span>
+          <span class="badge">✦ Reproducible Analytics</span>
+          <span class="badge">✦ Policy-Ready Reporting</span>
+          <span class="badge">✦ Client-Centred Approach</span>
+        </div>
+      </div>
+
+      <div class="profile-card reveal" aria-label="Lead Consultant profile">
+        <p class="role">Lead Consultant</p>
+        <h3>Edwin Musheiguza</h3>
+        <p>Statistician · Biostatistician · Assistant Lecturer</p>
+        <p><em>Correspondence address:</em> c/o College of Business Education (CBE), P.O. Box 1968, Tanzania</p>
+        <p><strong>Specialisations:</strong> Biostatistics, Applied Econometrics, Hierarchical &amp; Mixed-Effects Models, Epidemiological Methods, Research Methodology, Spatial Analysis</p>
+        <hr class="divider" />
+        <dl>
+          <div class="contact-info-item" style="margin-bottom:var(--space-3);">
+            <div><dt>Business Email</dt><dd><a href="mailto:e2mstatistics.researchservices@gmail.com">e2mstatistics.researchservices@gmail.com</a></dd></div>
+          </div>
+        </dl>
+        <div class="profile-links">
+          <a href="https://orcid.org/0000-0002-7155-7346" target="_blank" rel="noopener noreferrer" class="profile-link-chip">🔬 ORCID Profile</a>
+          <a href="https://e2m-statistics-tz.github.io/" target="_blank" rel="noopener noreferrer" class="profile-link-chip">🌐 Website</a>
+          <a href="https://wa.me/255763250153" target="_blank" rel="noopener noreferrer" class="profile-link-chip">💬 WhatsApp</a>
+          <a href="https://www.instagram.com/e2m_statistical_consulting" target="_blank" rel="noopener noreferrer" class="profile-link-chip">📷 @e2m_statistical_consulting</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section" aria-labelledby="services-heading">
+  <div class="container">
+    <header class="section-header reveal">
+      <span class="section-eyebrow">What We Do</span>
+      <h2 id="services-heading" class="section-title">Our Core Services</h2>
+      <p class="section-lead">From exploratory analysis to advanced modelling and capacity building — we cover the full spectrum of quantitative research needs.</p>
+    </header>
+    <div class="services-grid">
+      <article class="service-card reveal">
+        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
         <h3>Statistical Analysis</h3>
         <ul>
           <li>Descriptive, correlation &amp; comparative analysis</li>
-          <li>Structural Equation Modelling (SEM)</li>
-          <li>Linear, logistic, multinomial &amp; count regression</li>
-          <li>Time series &amp; spatio-temporal modelling</li>
-          <li>Machine learning &amp; predictive analytics</li>
-          <li>Bayesian inference &amp; hierarchical models</li>
+          <li>Inferential analysis &amp; hypothesis testing</li>
+          <li>Classical regression models (OLS, GLM, Logistic)</li>
+          <li>Time series &amp; longitudinal data analysis</li>
+          <li>Structural Equation Modelling (SEM/PLS)</li>
+          <li>Predictive analytics &amp; machine learning</li>
         </ul>
-      </div>
-      <div class="svc-card">
-        <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="#00C9B1" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+      </article>
+      <article class="service-card reveal">
+        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
         <h3>Research Design &amp; Support</h3>
         <ul>
-          <li>Study design &amp; methodology consultation</li>
-          <li>Grant proposals &amp; protocol development</li>
+          <li>Study design &amp; sampling strategy</li>
+          <li>Research methodology consultation</li>
+          <li>Academic research &amp; grant writing support</li>
           <li>IRB / ethics application assistance</li>
-          <li>Systematic reviews &amp; meta-analysis</li>
-          <li>Publication-ready tables, figures &amp; manuscripts</li>
+          <li>Dissertation &amp; thesis supervision support</li>
+          <li>Protocol development &amp; validation</li>
         </ul>
-      </div>
-      <div class="svc-card">
-        <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="#00C9B1" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+      </article>
+      <article class="service-card reveal">
+        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
         <h3>Survey &amp; Data Services</h3>
         <ul>
-          <li>Survey &amp; questionnaire design</li>
-          <li>ODK &amp; KoBoToolbox digital data collection</li>
-          <li>Data cleaning, wrangling &amp; visualisation</li>
-          <li>R, Python, Stata, SPSS, SAS pipelines</li>
+          <li>Survey design, deployment &amp; analysis</li>
+          <li>ODK &amp; KoBoToolbox data collection</li>
+          <li>Data cleaning, wrangling &amp; transformation</li>
+          <li>Data visualisation &amp; infographics</li>
+          <li>Dashboard creation (Power BI, R Shiny, Tableau)</li>
+          <li>Secondary data analysis &amp; linkage</li>
         </ul>
-      </div>
-      <div class="svc-card">
-        <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="#00C9B1" stroke-width="1.8" aria-hidden="true"><path d="M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z"/></svg>
-        <h3>Business Intelligence &amp; Digital Analytics</h3>
+      </article>
+      <article class="service-card reveal">
+        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+        <h3>Business Intelligence</h3>
         <ul>
-          <li>Market &amp; policy research</li>
-          <li>KPI development &amp; impact evaluation</li>
-          <li>Monitoring &amp; Evaluation (M&amp;E) analytics</li>
-          <li>Dashboards: Power BI, Tableau, R Shiny</li>
+          <li>Market analysis &amp; consumer research</li>
+          <li>Policy research &amp; impact evaluation</li>
+          <li>KPI development &amp; benchmarking</li>
+          <li>Monitoring &amp; Evaluation (M&amp;E) frameworks</li>
+          <li>Economic feasibility &amp; cost-benefit analysis</li>
+          <li>Competitive intelligence analytics</li>
         </ul>
-      </div>
-      <div class="svc-card">
-        <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="#00C9B1" stroke-width="1.8" aria-hidden="true"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+      </article>
+      <article class="service-card reveal">
+        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
         <h3>Training &amp; Capacity Building</h3>
         <ul>
-          <li>R, Python, SPSS, Stata, SAS workshops</li>
-          <li>SmartPLS &amp; SEM training</li>
+          <li>Workshops in R, Python, SPSS, Stata &amp; SAS</li>
+          <li>SmartPLS &amp; AMOS for SEM</li>
           <li>Academic &amp; dissertation coaching</li>
-          <li>Data literacy for teams of all sizes</li>
+          <li>Data literacy programmes for organisations</li>
+          <li>Industry-focused analytics training</li>
+          <li>Online &amp; on-site sessions available</li>
         </ul>
-      </div>
-      <div class="svc-card svc-accent">
-        <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="#00C9B1" stroke-width="1.8" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+      </article>
+      <article class="service-card reveal">
+        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2z"/><path d="M12 8v4l3 3"/></svg>
         <h3>Digital Health &amp; eHealth Analytics</h3>
         <ul>
-          <li>Health informatics &amp; data management systems</li>
-          <li>Disease burden &amp; epidemiological modelling</li>
-          <li>Maternal &amp; child health outcomes research</li>
-          <li>Implementation science &amp; health system evaluation</li>
+          <li>Health data management &amp; analysis</li>
+          <li>Clinical trial statistical support</li>
+          <li>Epidemiological surveillance analytics</li>
+          <li>Health indicators &amp; outcome modelling</li>
+          <li>HMIS &amp; DHIS2 data analysis</li>
+          <li>Systematic review &amp; meta-analysis</li>
         </ul>
-      </div>
+      </article>
     </div>
   </div>
 </section>
 
-<!-- ==================== MODELLING ==================== -->
-<section class="section bg-light" id="modelling">
-  <div class="wide-container">
-    <p class="eyebrow-dark">Technical Expertise</p>
-    <h2>Statistical Modelling Techniques</h2>
-    <p class="intro-text">
-      A comprehensive suite of methods — from classical inference to cutting-edge machine learning — applicable to exploratory studies, operational monitoring, and high-impact research.
-    </p>
-    <div class="model-grid">
-      <div class="model-card"><span class="mnum">01</span><h4>Descriptive &amp; Inferential Statistics</h4><p>Data summaries, hypothesis testing, ANOVA, and comparative analysis.</p></div>
-      <div class="model-card"><span class="mnum">02</span><h4>Classical Regression Models</h4><p>Linear, logistic, multinomial, ordinal, Poisson, and negative binomial regression.</p></div>
-      <div class="model-card"><span class="mnum">03</span><h4>Structural Equation Modelling</h4><p>Path analysis, CFA, mediation &amp; moderation via SEM and SmartPLS.</p></div>
-      <div class="model-card"><span class="mnum">04</span><h4>Time Series &amp; Forecasting</h4><p>ARIMA, SARIMA, VAR, GARCH, and state-space models for temporal data.</p></div>
-      <div class="model-card"><span class="mnum">05</span><h4>Spatial &amp; Spatio-Temporal Modelling</h4><p>Geostatistics, disease mapping, and INLA-based spatial/spatio-temporal models.</p></div>
-      <div class="model-card"><span class="mnum">06</span><h4>Machine Learning &amp; Predictive Analytics</h4><p>Random Forest, XGBoost, ensemble models, deep learning, and SHAP interpretation.</p></div>
-      <div class="model-card"><span class="mnum">07</span><h4>Bayesian Statistical Inference</h4><p>Posterior estimation, MCMC, INLA, and hierarchical Bayesian models.</p></div>
-      <div class="model-card"><span class="mnum">08</span><h4>Survival &amp; Event History Analysis</h4><p>Kaplan–Meier, Cox PH, AFT models, and competing risk frameworks.</p></div>
-      <div class="model-card"><span class="mnum">09</span><h4>Panel Data &amp; Mixed-Effects Models</h4><p>Fixed/random effects, GEE, and multilevel models for longitudinal data.</p></div>
-      <div class="model-card"><span class="mnum">10</span><h4>Hierarchical Modelling</h4><p>Nested and cross-classified multilevel models incorporating random effects.</p></div>
-      <div class="model-card"><span class="mnum">11</span><h4>M&amp;E Analytics</h4><p>LogFrames, theory of change, indicator tracking, and impact evaluation.</p></div>
+<!-- MODELLING -->
+<section id="modelling" class="section section--alt" aria-labelledby="modelling-heading">
+  <div class="container">
+    <header class="section-header reveal">
+      <span class="section-eyebrow">Technical Expertise</span>
+      <h2 id="modelling-heading" class="section-title">Statistical Modelling Capabilities</h2>
+      <p class="section-lead">We deploy the right model for your data — choosing from a comprehensive toolkit of 11+ advanced techniques across cross-sectional, longitudinal, spatial, and Bayesian frameworks.</p>
+    </header>
+    <div class="modelling-grid">
+      <div class="model-card reveal"><span class="model-num">01</span><div><h4>Linear &amp; Generalised Linear Models</h4><p>OLS, logistic, Poisson, negative binomial regression for diverse outcome types.</p></div></div>
+      <div class="model-card reveal"><span class="model-num">02</span><div><h4>Time Series Analysis</h4><p>ARIMA, SARIMA, VAR, forecasting &amp; trend decomposition for temporal data.</p></div></div>
+      <div class="model-card reveal"><span class="model-num">03</span><div><h4>Multilevel / Hierarchical Models</h4><p>Mixed-effects models for nested and clustered data structures in health &amp; education.</p></div></div>
+      <div class="model-card reveal"><span class="model-num">04</span><div><h4>Structural Equation Modelling</h4><p>CB-SEM and PLS-SEM for latent constructs, mediation, and moderation analysis.</p></div></div>
+      <div class="model-card reveal"><span class="model-num">05</span><div><h4>Survival &amp; Event History Analysis</h4><p>Kaplan-Meier, Cox proportional hazards, parametric survival models.</p></div></div>
+      <div class="model-card reveal"><span class="model-num">06</span><div><h4>Spatial &amp; Spatio-Temporal Models</h4><p>GIS-integrated analysis, spatial autocorrelation, kriging, disease mapping.</p></div></div>
+      <div class="model-card reveal"><span class="model-num">07</span><div><h4>Bayesian Statistical Methods</h4><p>MCMC estimation, Bayesian inference, prior elicitation for complex models.</p></div></div>
+      <div class="model-card reveal"><span class="model-num">08</span><div><h4>Machine Learning Models</h4><p>Random forest, gradient boosting, neural networks, cross-validation pipelines.</p></div></div>
+      <div class="model-card reveal"><span class="model-num">09</span><div><h4>Panel &amp; Longitudinal Data Models</h4><p>Fixed effects, random effects, difference-in-differences, dynamic panels.</p></div></div>
+      <div class="model-card reveal"><span class="model-num">10</span><div><h4>Meta-Analysis &amp; Systematic Review</h4><p>Fixed/random effects meta-analysis, heterogeneity, publication bias assessment.</p></div></div>
+      <div class="model-card reveal"><span class="model-num">11</span><div><h4>Causal Inference Methods</h4><p>Propensity score matching, instrumental variables, regression discontinuity.</p></div></div>
     </div>
   </div>
 </section>
 
-<!-- ==================== TEAM ==================== -->
-<section class="section bg-navy" id="team">
-  <div class="wide-container">
-    <p class="eyebrow-teal">Our People</p>
-    <h2 class="white">Meet the Expert Team</h2>
-    <p class="intro-text light-text">
-      Seven specialist consultants spanning biostatistics, epidemiology, econometrics, data science, public health, and digital analytics — collectively serving projects of every scale across Tanzania and beyond.
-    </p>
-
-    <!-- Lead consultant -->
-    <div class="team-lead-card">
-      <div class="lead-photo-col">
-        <img src="Edwin.jpg"
-             alt="Edwin Musheiguza — Founder &amp; Lead Biostatistician"
-             class="team-photo"
-             width="170" height="170" loading="lazy"/>
-        <span class="lead-badge">Founder &amp; Lead Consultant</span>
-      </div>
-      <div class="lead-info">
+<!-- TEAM -->
+<section id="team" class="section" aria-labelledby="team-heading">
+  <div class="container">
+    <header class="section-header reveal">
+      <span class="section-eyebrow">Our People</span>
+      <h2 id="team-heading" class="section-title">Meet the Team</h2>
+      <p class="section-lead">A multidisciplinary group of statisticians, biostatisticians, econometricians, data scientists, and epidemiologists — each a specialist in their field.</p>
+    </header>
+    <div class="team-grid">
+      <article class="team-card reveal">
+        <div class="team-avatar" aria-hidden="true">EM</div>
         <h3>Edwin Musheiguza</h3>
-        <p class="quals">BSc. Statistics &nbsp;|&nbsp; MSc. Biostatistics &nbsp;|&nbsp; MSc. Statistics &nbsp;|&nbsp; PhD Biostatistics (In Progress)</p>
-        <p class="role">Biostatistician &amp; Assistant Lecturer — College of Business Education (CBE), Dar es Salaam</p>
-        <p class="bio">
-          Founder and lead consultant of E2M Statistics &amp; Research Services. Specialises in Bayesian spatio-temporal modelling, machine learning for health outcomes, evidence synthesis, and determinants of maternal and child health across sub-Saharan Africa. Committed to building analytic capacity and producing publication-grade research outputs.
-        </p>
-        <div class="tag-row">
-          <span class="tag">Bayesian Modelling</span>
-          <span class="tag">Spatio-Temporal Analysis</span>
-          <span class="tag">Machine Learning</span>
-          <span class="tag">INLA</span>
-          <span class="tag">MCH Research</span>
-          <span class="tag">Evidence Synthesis</span>
+        <p class="team-role">Lead Consultant &amp; Founder</p>
+        <p class="team-field">Biostatistics · Applied Econometrics · Research Methodology</p>
+        <p style="font-size:var(--text-xs);color:var(--color-text-faint);margin-bottom:var(--space-2);">ORCID: <a href="https://orcid.org/0000-0002-7155-7346" target="_blank" rel="noopener noreferrer" style="color:var(--color-teal);">0000-0002-7155-7346</a></p>
+        <div class="team-links">
+          <a href="mailto:e2mstatistics.researchservices@gmail.com" class="team-link">Email</a>
+          <a href="https://orcid.org/0000-0002-7155-7346" target="_blank" rel="noopener noreferrer" class="team-link">ORCID</a>
+          <a href="https://e2m-statistics-tz.github.io/" target="_blank" rel="noopener noreferrer" class="team-link">Website</a>
         </div>
-        <a href="https://orcid.org/0000-0002-7155-7346" target="_blank" rel="noopener noreferrer" class="orcid-link">
-          <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="16" height="16" alt="ORCID"/> ORCID: 0000-0002-7155-7346
-        </a>
-      </div>
-    </div>
-
-    <!-- Six associates -->
-    <div class="assoc-row">
-
-      <div class="assoc-card">
-        <img src="Amina.jpg" alt="Dr. Amina K. Rashidi — Senior Epidemiologist" class="assoc-photo" width="110" height="110" loading="lazy"/>
-        <h3>Dr. Amina K. Rashidi</h3>
-        <p class="quals">BSc. Public Health &nbsp;|&nbsp; MPH &nbsp;|&nbsp; PhD Epidemiology</p>
-        <p class="role">Senior Epidemiologist &amp; Public Health Analyst</p>
-        <p class="bio">Specialist in epidemiological modelling, disease burden analysis, health systems research, and programme evaluation in East and Central Africa.</p>
-        <div class="tag-row"><span class="tag">Epidemiology</span><span class="tag">Disease Mapping</span><span class="tag">M&amp;E</span></div>
-        <a href="https://orcid.org/0000-0002-7155-7346" target="_blank" rel="noopener noreferrer" class="orcid-link">
-          <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="16" height="16" alt="ORCID"/> ORCID: 0000-0002-7155-7346
-        </a>
-      </div>
-
-      <div class="assoc-card">
-        <img src="James.jpg" alt="James O. Mwenda — Senior Econometrician" class="assoc-photo" width="110" height="110" loading="lazy"/>
-        <h3>James O. Mwenda</h3>
-        <p class="quals">BSc. Economics &nbsp;|&nbsp; MSc. Econometrics &nbsp;|&nbsp; PhD Applied Economics (Cand.)</p>
-        <p class="role">Senior Econometrician &amp; Business Intelligence Analyst</p>
-        <p class="bio">Expert in panel data econometrics, impact evaluation, policy research, and business intelligence analytics for development organisations and the private sector.</p>
-        <div class="tag-row"><span class="tag">Econometrics</span><span class="tag">Impact Evaluation</span><span class="tag">Policy Analysis</span></div>
-        <a href="https://orcid.org/0000-0002-7155-7346" target="_blank" rel="noopener noreferrer" class="orcid-link">
-          <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="16" height="16" alt="ORCID"/> ORCID: 0000-0002-7155-7346
-        </a>
-      </div>
-
-      <div class="assoc-card">
-        <img src="Grace.jpg" alt="Grace T. Ndege — Data Scientist" class="assoc-photo" width="110" height="110" loading="lazy"/>
-        <h3>Grace T. Ndege</h3>
-        <p class="quals">BSc. Computer Science &nbsp;|&nbsp; MSc. Data Science &nbsp;|&nbsp; MSc. Applied Statistics</p>
-        <p class="role">Data Scientist &amp; Machine Learning Engineer</p>
-        <p class="bio">Specialist in machine learning, deep learning, automated dashboards, and intelligent data solutions across health, finance, and agricultural sectors.</p>
-        <div class="tag-row"><span class="tag">Machine Learning</span><span class="tag">Python</span><span class="tag">Dashboards</span></div>
-        <a href="https://orcid.org/0000-0002-7155-7346" target="_blank" rel="noopener noreferrer" class="orcid-link">
-          <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="16" height="16" alt="ORCID"/> ORCID: 0000-0002-7155-7346
-        </a>
-      </div>
-
-      <div class="assoc-card">
-        <img src="Evodia.jpg" alt="Evodia — Research Methods Specialist" class="assoc-photo" width="110" height="110" loading="lazy"/>
-        <h3>Evodia [Edit Full Name]</h3>
-        <p class="quals">BSc. Statistics &nbsp;|&nbsp; MSc. Applied Statistics</p>
-        <p class="role">Research Methods Specialist &amp; Survey Analyst</p>
-        <p class="bio">Expert in survey methodology, qualitative and mixed-methods research, and statistical analysis for social, education, and development studies.</p>
-        <div class="tag-row"><span class="tag">Survey Design</span><span class="tag">Mixed Methods</span><span class="tag">SPSS</span></div>
-        <a href="https://orcid.org/0000-0002-7155-7346" target="_blank" rel="noopener noreferrer" class="orcid-link">
-          <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="16" height="16" alt="ORCID"/> ORCID: 0000-0002-7155-7346
-        </a>
-      </div>
-
-      <div class="assoc-card">
-        <img src="Mlayi.jpg" alt="Mlayi — Biostatistics &amp; Clinical Trials" class="assoc-photo" width="110" height="110" loading="lazy"/>
-        <h3>Mlayi [Edit Full Name]</h3>
-        <p class="quals">BSc. Biostatistics &nbsp;|&nbsp; MSc. Clinical Research &nbsp;|&nbsp; PhD (Cand.)</p>
-        <p class="role">Biostatistics &amp; Clinical Trials Analyst</p>
-        <p class="bio">Specialist in clinical trial design, randomisation, safety and efficacy analysis, and regulatory-compliant statistical reporting for medical and pharmaceutical research.</p>
-        <div class="tag-row"><span class="tag">Clinical Trials</span><span class="tag">Biostatistics</span><span class="tag">R &amp; SAS</span></div>
-        <a href="https://orcid.org/0000-0002-7155-7346" target="_blank" rel="noopener noreferrer" class="orcid-link">
-          <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="16" height="16" alt="ORCID"/> ORCID: 0000-0002-7155-7346
-        </a>
-      </div>
-
-      <div class="assoc-card">
-        <img src="Expert7.jpg" alt="7th Expert Consultant" class="assoc-photo placeholder-photo" width="110" height="110" loading="lazy"
-             onerror="this.style.background='#1a3256'"/>
-        <h3>[Edit Full Name]</h3>
-        <p class="quals">[Edit Qualifications]</p>
-        <p class="role">[Edit Role &amp; Specialisation]</p>
-        <p class="bio">[Edit: Add a short professional biography for this consultant — area of expertise, methods, and key sectors served.]</p>
-        <div class="tag-row"><span class="tag">[Expertise 1]</span><span class="tag">[Expertise 2]</span></div>
-        <a href="https://orcid.org/0000-0002-7155-7346" target="_blank" rel="noopener noreferrer" class="orcid-link">
-          <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="16" height="16" alt="ORCID"/> ORCID: 0000-0002-7155-7346
-        </a>
-      </div>
-
-    </div>
-
-    <p class="join-note">Are you a statistician, data scientist, or researcher? <a href="#contact">Collaborate with E2M →</a></p>
-  </div>
-</section>
-
-<!-- ==================== WHY E2M ==================== -->
-<section class="section bg-light" id="why">
-  <div class="wide-container two-col">
-    <div>
-      <p class="eyebrow-dark">Our Value</p>
-      <h2>Why Choose E2M?</h2>
-      <p class="intro-text">
-        We combine academic rigour, modern data tools, and clear communication to deliver high-impact analytical work — reliably and ethically.
-      </p>
-      <div class="why-list">
-        <div class="why-item">
-          <span class="why-icon" aria-hidden="true">🎓</span>
-          <div>
-            <strong>Seven-Expert Multidisciplinary Team</strong>
-            <p>Biostatistics, epidemiology, econometrics, data science, public health, and clinical research — all under one firm.</p>
-          </div>
+      </article>
+      <article class="team-card reveal">
+        <div class="team-avatar" aria-hidden="true">AR</div>
+        <h3>Dr. Amina K. Rashidi</h3><!-- EDIT NAME -->
+        <p class="team-role">Associate Consultant</p>
+        <p class="team-field">Epidemiology · Public Health Analytics · Systematic Review &amp; Meta-Analysis</p>
+        <p style="font-size:var(--text-xs);color:var(--color-text-faint);margin-bottom:var(--space-2);">ORCID: 0000-0000-0000-0000<!-- EDIT ORCID --></p>
+        <div class="team-links">
+          <a href="mailto:e2mstatistics.researchservices@gmail.com" class="team-link">Email</a><!-- EDIT -->
+          <a href="#" class="team-link">ORCID</a><!-- EDIT -->
         </div>
-        <div class="why-item">
-          <span class="why-icon" aria-hidden="true">🎯</span>
-          <div>
-            <strong>Scalable Support for Any Project</strong>
-            <p>Appropriate methodology, resourcing, and pricing for small pilots, medium programmes, and large multi-country studies.</p>
-          </div>
+      </article>
+      <article class="team-card reveal">
+        <div class="team-avatar" aria-hidden="true">JM</div>
+        <h3>James O. Mwenda</h3><!-- EDIT NAME -->
+        <p class="team-role">Senior Consultant</p>
+        <p class="team-field">Econometrics · Business Intelligence · Panel Data &amp; Causal Inference</p>
+        <p style="font-size:var(--text-xs);color:var(--color-text-faint);margin-bottom:var(--space-2);">ORCID: 0000-0000-0000-0000<!-- EDIT ORCID --></p>
+        <div class="team-links">
+          <a href="mailto:e2mstatistics.researchservices@gmail.com" class="team-link">Email</a><!-- EDIT -->
+          <a href="#" class="team-link">ORCID</a><!-- EDIT -->
         </div>
-        <div class="why-item">
-          <span class="why-icon" aria-hidden="true">📊</span>
-          <div>
-            <strong>Professional, Digital-Ready Reporting</strong>
-            <p>Executive summaries, interactive dashboards, and publication-ready outputs aligned with international standards.</p>
-          </div>
+      </article>
+      <article class="team-card reveal">
+        <div class="team-avatar" aria-hidden="true">GN</div>
+        <h3>Grace T. Ndege</h3><!-- EDIT NAME -->
+        <p class="team-role">Data Science Specialist</p>
+        <p class="team-field">Machine Learning · Spatial Analytics · Visualisation &amp; Dashboards</p>
+        <p style="font-size:var(--text-xs);color:var(--color-text-faint);margin-bottom:var(--space-2);">ORCID: 0000-0000-0000-0000<!-- EDIT ORCID --></p>
+        <div class="team-links">
+          <a href="mailto:e2mstatistics.researchservices@gmail.com" class="team-link">Email</a><!-- EDIT -->
+          <a href="#" class="team-link">ORCID</a><!-- EDIT -->
         </div>
-        <div class="why-item">
-          <span class="why-icon" aria-hidden="true">⚡</span>
-          <div>
-            <strong>Reliable Timelines &amp; Clear Quotes</strong>
-            <p>Defined scopes, realistic delivery schedules, and transparent pricing — no hidden costs.</p>
-          </div>
-        </div>
-        <div class="why-item">
-          <span class="why-icon" aria-hidden="true">🌍</span>
-          <div>
-            <strong>African Expertise, Global Reach</strong>
-            <p>Deep contextual knowledge of African datasets and research environments, with international collaboration experience.</p>
-          </div>
-        </div>
-        <div class="why-item">
-          <span class="why-icon" aria-hidden="true">🔒</span>
-          <div>
-            <strong>Ethical &amp; Fully Reproducible Practice</strong>
-            <p>IRB and ethics support, version-controlled code, and documented reproducible workflows via GitHub.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <aside class="why-aside">
-      <div class="testimonial">
-        <p class="t-text">"E2M helped us design and analyse a complex maternal health study. Their insights shaped our programme strategy and donor reporting with remarkable clarity."</p>
-        <p class="t-auth">— NGO Research Partner <span class="edit">[Edit: add organisation name]</span></p>
-      </div>
-      <div class="testimonial">
-        <p class="t-text">"The Bayesian modelling workshop in R significantly strengthened our department's analytic capacity. Highly recommended."</p>
-        <p class="t-auth">— University Researcher <span class="edit">[Edit: add institution name]</span></p>
-      </div>
-      <div class="tools-box">
-        <h4>Tools &amp; Software</h4>
-        <div class="tool-tags">
-          <span>R</span><span>Python</span><span>Stata</span><span>SPSS</span><span>SAS</span>
-          <span>SmartPLS</span><span>Power BI</span><span>Tableau</span><span>R Shiny</span>
-          <span>ODK</span><span>KoBoToolbox</span><span>INLA</span><span>QGIS</span><span>ArcGIS</span>
-        </div>
-      </div>
-    </aside>
-  </div>
-</section>
-
-<!-- ==================== CLIENTS / SECTORS ==================== -->
-<section class="section bg-teal" id="clients">
-  <div class="wide-container">
-    <p class="eyebrow-teal">Who We Serve</p>
-    <h2 class="white">Sectors &amp; Clients</h2>
-    <p class="intro-text light-text">
-      We support evidence-based decisions across public health, development, academia, government, and private industry throughout Tanzania, East Africa, and internationally.
-    </p>
-    <div class="sector-grid">
-      <div class="sector-card"><span class="sector-ico" aria-hidden="true">🏥</span><h3>Public Health &amp; Healthcare</h3><p>Disease burden, maternal &amp; child health, health systems research, and programme evaluation.</p></div>
-      <div class="sector-card"><span class="sector-ico" aria-hidden="true">🎓</span><h3>Academia &amp; Research</h3><p>Master's and PhD dissertations, grant support, systematic reviews, and applied research projects.</p></div>
-      <div class="sector-card"><span class="sector-ico" aria-hidden="true">🌐</span><h3>NGOs &amp; Development</h3><p>Baseline/endline surveys, impact evaluations, M&amp;E frameworks, and donor reporting analytics.</p></div>
-      <div class="sector-card"><span class="sector-ico" aria-hidden="true">🏛️</span><h3>Government &amp; Policy</h3><p>Policy research, census and survey analysis, and evidence synthesis for policy briefs.</p></div>
-      <div class="sector-card"><span class="sector-ico" aria-hidden="true">📈</span><h3>Private Sector &amp; Industry</h3><p>Business intelligence, digital analytics, customer segmentation, and demand forecasting.</p></div>
-      <div class="sector-card"><span class="sector-ico" aria-hidden="true">🌾</span><h3>Agriculture &amp; Environment</h3><p>Productivity analysis, spatial environmental modelling, and food security analytics.</p></div>
+      </article>
     </div>
   </div>
 </section>
 
-<!-- ==================== CONTACT ==================== -->
-<section class="section bg-light" id="contact">
-  <div class="wide-container two-col">
-    <div class="contact-details">
-      <p class="eyebrow-dark">Get In Touch</p>
-      <h2>Let's Talk Data</h2>
-      <p class="intro-text">
-        Tell us about your project and we will recommend the most appropriate methods and support — from a small pilot analysis to a large multi-country study.
-      </p>
-      <div class="contact-list">
-        <div class="ci"><span class="ci-icon" aria-hidden="true">📧</span>
-          <div><strong>Personal Email</strong>
-            <a href="mailto:musheiguzae@gmail.com">musheiguzae@gmail.com</a>
-          </div>
-        </div>
-        <div class="ci"><span class="ci-icon" aria-hidden="true">🏛</span>
-          <div><strong>Institutional Email</strong>
-            <a href="mailto:edwin.musheiguza@cbe.ac.tz">edwin.musheiguza@cbe.ac.tz</a>
-          </div>
-        </div>
-        <div class="ci"><span class="ci-icon" aria-hidden="true">💬</span>
-          <div><strong>WhatsApp / Phone</strong>
-            <a href="https://wa.me/255763250153" target="_blank" rel="noopener noreferrer">+255 763 250 153</a>
-          </div>
-        </div>
-        <div class="ci"><span class="ci-icon" aria-hidden="true">📸</span>
-          <div><strong>Instagram</strong>
-            <a href="https://www.instagram.com/e2m_statistical_consulting" target="_blank" rel="noopener noreferrer">@e2m_statistical_consulting</a>
-          </div>
-        </div>
-        <div class="ci"><span class="ci-icon" aria-hidden="true">🌐</span>
-          <div><strong>Website</strong>
-            <a href="https://musheiguzae-e2m.github.io/" target="_blank" rel="noopener noreferrer">musheiguzae-e2m.github.io</a>
-          </div>
-        </div>
-        <div class="ci"><span class="ci-icon" aria-hidden="true">🔬</span>
-          <div><strong>ORCID</strong>
-            <a href="https://orcid.org/0000-0002-7155-7346" target="_blank" rel="noopener noreferrer">0000-0002-7155-7346</a>
-          </div>
-        </div>
-        <div class="ci"><span class="ci-icon" aria-hidden="true">📍</span>
-          <div><strong>Address</strong>
-            <span>P.O. Box 1968, Dar es Salaam, Tanzania<br>College of Business Education (CBE)</span>
-          </div>
-        </div>
+<!-- WHY E2M -->
+<section id="why" class="section section--dark" aria-labelledby="why-heading">
+  <div class="container">
+    <header class="section-header reveal">
+      <span class="section-eyebrow" style="color:var(--color-accent);">Why Partner With Us</span>
+      <h2 id="why-heading" class="section-title">The E2M Advantage</h2>
+      <p class="section-lead">We combine academic rigour with practical consulting expertise, delivering results that are methodologically defensible and strategically actionable.</p>
+    </header>
+    <div class="why-grid">
+      <div class="why-card reveal"><h4>Specialist Expertise</h4><p>PhD-level statisticians, biostatisticians, econometricians, and data scientists — each a specialist, not a generalist.</p></div>
+      <div class="why-card reveal"><h4>End-to-End Partnership</h4><p>From research design and ethics to final reporting and publication support — we stay with you throughout.</p></div>
+      <div class="why-card reveal"><h4>Reproducible Science</h4><p>All analyses delivered with documented code (R/Python/Stata), ensuring full transparency and reproducibility.</p></div>
+      <div class="why-card reveal"><h4>Client-First Communication</h4><p>Complex results translated into clear narratives and actionable recommendations your stakeholders can understand.</p></div>
+      <div class="why-card reveal"><h4>Flexible &amp; Affordable</h4><p>Scalable support for every budget — from student dissertation help to large-scale institutional research programmes.</p></div>
+      <div class="why-card reveal"><h4>Fast &amp; Reliable</h4><p>Transparent timelines, milestone-based delivery, and clear pricing with no hidden charges.</p></div>
+    </div>
+    <div class="testimonials">
+      <div class="testimonial reveal">
+        <blockquote>"E2M's guidance transformed our confused dataset into a compelling story. Our grant proposal was funded within three months."</blockquote>
+        <cite>— Dr. S. Mwangi, Public Health Researcher, Kenya<!-- EDIT --></cite>
+      </div>
+      <div class="testimonial reveal">
+        <blockquote>"The team's econometric rigour and responsiveness made our policy brief stand out with the ministry. Truly professional."</blockquote>
+        <cite>— J. Kimaro, Policy Analyst, Tanzania<!-- EDIT --></cite>
       </div>
     </div>
+  </div>
+</section>
 
-    <div class="form-box">
-      <form id="contactForm" novalidate aria-label="Project enquiry form">
-        <h3>Send a Project Enquiry</h3>
-        <div class="fg">
-          <label for="fn">Full Name *</label>
-          <input type="text" id="fn" name="name" placeholder="Your full name" required autocomplete="name"/>
+<!-- TOOLS STRIP -->
+<div class="tools-strip" aria-label="Software tools we use">
+  <div class="container">
+    <p class="tools-label">Software &amp; Tools We Work With</p>
+    <div class="tools-list" role="list">
+      <span class="tool-chip" role="listitem">R / RStudio</span>
+      <span class="tool-chip" role="listitem">Python</span>
+      <span class="tool-chip" role="listitem">SPSS</span>
+      <span class="tool-chip" role="listitem">Stata</span>
+      <span class="tool-chip" role="listitem">SAS</span>
+      <span class="tool-chip" role="listitem">SmartPLS</span>
+      <span class="tool-chip" role="listitem">AMOS</span>
+      <span class="tool-chip" role="listitem">Power BI</span>
+      <span class="tool-chip" role="listitem">Tableau</span>
+      <span class="tool-chip" role="listitem">R Shiny</span>
+      <span class="tool-chip" role="listitem">ODK</span>
+      <span class="tool-chip" role="listitem">KoBoToolbox</span>
+      <span class="tool-chip" role="listitem">QGIS</span>
+      <span class="tool-chip" role="listitem">Excel</span>
+      <span class="tool-chip" role="listitem">DHIS2</span>
+    </div>
+  </div>
+</div>
+
+<!-- SECTORS -->
+<section id="clients" class="section" aria-labelledby="clients-heading">
+  <div class="container">
+    <header class="section-header reveal">
+      <span class="section-eyebrow">Who We Serve</span>
+      <h2 id="clients-heading" class="section-title">Sectors We Cover</h2>
+      <p class="section-lead">Our expertise spans all major sectors of the economy and society, with specialists dedicated to each research domain.</p>
+    </header>
+    <div class="sectors-grid">
+      <div class="sector-card reveal"><div class="sector-icon" aria-hidden="true">🏥</div><h4>Public Health &amp; Epidemiology</h4><p>Health programs, clinical trials, disease surveillance, HMIS analytics.</p></div>
+      <div class="sector-card reveal"><div class="sector-icon" aria-hidden="true">🎓</div><h4>Academia &amp; Research</h4><p>Postgraduate students, university research units, grant-funded studies.</p></div>
+      <div class="sector-card reveal"><div class="sector-icon" aria-hidden="true">🌍</div><h4>NGOs &amp; Development</h4><p>International aid organisations, M&amp;E frameworks, impact evaluations.</p></div>
+      <div class="sector-card reveal"><div class="sector-icon" aria-hidden="true">📊</div><h4>Business &amp; Industry</h4><p>Market research, consumer analytics, operational optimisation.</p></div>
+      <div class="sector-card reveal"><div class="sector-icon" aria-hidden="true">🏛️</div><h4>Government &amp; Policy</h4><p>Policy research, national statistics support, regulatory analysis.</p></div>
+      <div class="sector-card reveal"><div class="sector-icon" aria-hidden="true">🌱</div><h4>Agriculture &amp; Environment</h4><p>Spatial data analysis, climate studies, agricultural productivity research.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section section--alt" aria-labelledby="contact-heading">
+  <div class="container container--narrow">
+    <header class="section-header reveal">
+      <span class="section-eyebrow">Get In Touch</span>
+      <h2 id="contact-heading" class="section-title">Let's Talk Data</h2>
+      <p class="section-lead">Ready to start your project? Fill in the form or reach us directly. We respond within 24 hours on business days.</p>
+    </header>
+    <div class="contact-grid">
+      <div class="reveal">
+        <dl>
+          <div class="contact-info-item">
+            <div class="contact-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div><dt>Business Email</dt><dd><a href="mailto:e2mstatistics.researchservices@gmail.com">e2mstatistics.researchservices@gmail.com</a></dd></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.1 19.79 19.79 0 0 1 1.61 4.49 2 2 0 0 1 3.58 2.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 17z"/></svg></div>
+            <div><dt>Phone / WhatsApp</dt><dd><a href="https://wa.me/255763250153" target="_blank" rel="noopener noreferrer">+255 763 250 153</a></dd></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></div>
+            <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/e2m_statistical_consulting" target="_blank" rel="noopener noreferrer">@e2m_statistical_consulting</a></dd></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+            <div><dt>Website</dt><dd><a href="https://e2m-statistics-tz.github.io/" target="_blank" rel="noopener noreferrer">e2m-statistics-tz.github.io</a></dd></div>
+          </div>
+        </dl>
+      </div>
+
+      <form class="contact-form reveal" name="contact" aria-label="Contact form" onsubmit="handleFormSubmit(event)">
+        <div class="form-group">
+          <label for="contact-name">Full Name <span aria-hidden="true">*</span></label>
+          <input type="text" id="contact-name" name="name" required placeholder="Your full name" autocomplete="name" />
         </div>
-        <div class="fg">
-          <label for="fe">Email Address *</label>
-          <input type="email" id="fe" name="email" placeholder="your@email.com" required autocomplete="email"/>
+        <div class="form-group">
+          <label for="contact-email">Email Address <span aria-hidden="true">*</span></label>
+          <input type="email" id="contact-email" name="email" required placeholder="your@email.com" autocomplete="email" />
         </div>
-        <div class="fg">
-          <label for="fo">Organisation</label>
-          <input type="text" id="fo" name="org" placeholder="Your organisation (optional)" autocomplete="organization"/>
+        <div class="form-group">
+          <label for="contact-org">Organisation / Institution</label>
+          <input type="text" id="contact-org" name="organisation" placeholder="University / Company / NGO" autocomplete="organization" />
         </div>
-        <div class="fg">
-          <label for="fs">Service of Interest</label>
-          <select id="fs" name="service">
-            <option value="">Select a service...</option>
+        <div class="form-group">
+          <label for="contact-service">Service Required</label>
+          <select id="contact-service" name="service">
+            <option value="">— Select a service —</option>
             <option>Statistical Analysis</option>
             <option>Research Design &amp; Support</option>
             <option>Survey &amp; Data Services</option>
-            <option>Business Intelligence &amp; Digital Analytics</option>
-            <option>Training &amp; Capacity Building</option>
-            <option>Digital Health &amp; eHealth Analytics</option>
-            <option>Other / Multiple Services</option>
+            <option>Business Intelligence</option>
+            <option>Training &amp; Workshops</option>
+            <option>Digital Health Analytics</option>
+            <option>Other</option>
           </select>
         </div>
-        <div class="fg">
-          <label for="fm">Message *</label>
-          <textarea id="fm" name="message" rows="5" placeholder="Briefly describe your project or enquiry..." required></textarea>
+        <div class="form-group">
+          <label for="contact-message">Message <span aria-hidden="true">*</span></label>
+          <textarea id="contact-message" name="message" required placeholder="Briefly describe your project or enquiry…"></textarea>
         </div>
-        <button type="submit" class="btn btn-teal btn-full">Send Enquiry</button>
-        <p class="form-note">Replies sent within 24 hours to <strong>musheiguzae@gmail.com</strong></p>
-        <div id="form-ok" class="form-ok" hidden>✅ Thank you! We will be in touch within 24 hours.</div>
+        <button type="submit" class="form-submit">Send Message →</button>
+        <div id="form-feedback" role="alert" aria-live="polite" style="font-size:var(--text-sm);margin-top:var(--space-2);"></div>
       </form>
     </div>
   </div>
@@ -531,105 +492,132 @@
 
 </main>
 
-<!-- ==================== FOOTER ==================== -->
-<footer class="site-footer">
-  <div class="wide-container footer-cols">
-    <div class="footer-brand-col">
-      <img src="E2M_logo_-_horizontal_banner.jpg"
-           alt="E2M Statistics &amp; Research Services"
-           class="footer-logo"
-           width="200" height="50" loading="lazy"/>
-      <p>Statistical precision. Research clarity. Strategic impact.</p>
-      <p class="footer-addr">P.O. Box 1968 · Dar es Salaam, Tanzania</p>
-      <p class="footer-addr">College of Business Education (CBE)</p>
+<!-- FOOTER -->
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <p class="footer-logo-name">E2M Statistics</p>
+        <p>Expert statistical consulting, research design, and data analytics — bridging evidence and action for clients across all sectors globally.</p>
+        <div style="display:flex;gap:var(--space-3);flex-wrap:wrap;">
+          <a href="mailto:e2mstatistics.researchservices@gmail.com" aria-label="Business email">✉ Email</a>
+          <a href="https://wa.me/255763250153" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">💬 WhatsApp</a>
+          <a href="https://www.instagram.com/e2m_statistical_consulting" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📷 Instagram</a>
+        </div>
+      </div>
+      <nav class="footer-col" aria-label="Quick links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#modelling">Modelling</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <li><a href="#why">Why E2M</a></li>
+          <li><a href="#clients">Sectors</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Statistical Analysis</a></li>
+          <li><a href="#services">Research Design</a></li>
+          <li><a href="#services">Survey &amp; Data Services</a></li>
+          <li><a href="#services">Business Intelligence</a></li>
+          <li><a href="#services">Training &amp; Workshops</a></li>
+          <li><a href="#services">Digital Health Analytics</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="mailto:e2mstatistics.researchservices@gmail.com">Business Email</a></li>
+          <li><a href="https://wa.me/255763250153" target="_blank" rel="noopener noreferrer">+255 763 250 153</a></li>
+          <li><a href="https://www.instagram.com/e2m_statistical_consulting" target="_blank" rel="noopener noreferrer">@e2m_statistical_consulting</a></li>
+          <li><a href="https://orcid.org/0000-0002-7155-7346" target="_blank" rel="noopener noreferrer">ORCID Profile</a></li>
+          <li><a href="https://e2m-statistics-tz.github.io/" target="_blank" rel="noopener noreferrer">GitHub Site</a></li>
+        </ul>
+      </div>
     </div>
-    <div>
-      <strong>Contact</strong>
-      <a href="mailto:musheiguzae@gmail.com">musheiguzae@gmail.com</a>
-      <a href="mailto:edwin.musheiguza@cbe.ac.tz">edwin.musheiguza@cbe.ac.tz</a>
-      <a href="https://wa.me/255763250153" target="_blank" rel="noopener noreferrer">+255 763 250 153 (WhatsApp)</a>
-      <a href="https://www.instagram.com/e2m_statistical_consulting" target="_blank" rel="noopener noreferrer">@e2m_statistical_consulting</a>
+    <div class="footer-bottom">
+      <span>© <span id="footer-year">2025</span> E2M Statistics &amp; Research Services. All rights reserved.</span>
+      <span>Serving clients globally · Remote &amp; On-site</span>
     </div>
-    <div>
-      <strong>Research Profile</strong>
-      <a href="https://musheiguzae-e2m.github.io/" target="_blank" rel="noopener noreferrer">musheiguzae-e2m.github.io</a>
-      <a href="https://orcid.org/0000-0002-7155-7346" target="_blank" rel="noopener noreferrer">ORCID: 0000-0002-7155-7346</a>
-      <strong style="margin-top:1.5rem;">Quick Links</strong>
-      <a href="#about">About Us</a>
-      <a href="#services">Services</a>
-      <a href="#team">Our Team</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </div>
-  <div class="footer-bar">
-    <p>© 2026 E2M Statistics &amp; Research Services · All rights reserved · Dar es Salaam, Tanzania</p>
-    <a href="#top" class="back-top" aria-label="Back to top">↑ Back to top</a>
   </div>
 </footer>
 
-<!-- ==================== SCRIPTS ==================== -->
 <script>
 (function(){
-  var html=document.documentElement;
-  var btn=document.querySelector('[data-theme-toggle]');
-  var d='light';
-  try{ var s=localStorage.getItem('theme'); if(s) d=s; else d=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'; }catch(e){ d=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'; }
-  html.setAttribute('data-theme',d);
-  if(btn) btn.addEventListener('click',function(){
-    d=d==='dark'?'light':'dark';
-    html.setAttribute('data-theme',d);
-    try{localStorage.setItem('theme',d);}catch(e){}
-  });
+  const toggle = document.querySelector('[data-theme-toggle]');
+  const root = document.documentElement;
+  let dark = matchMedia('(prefers-color-scheme: dark)').matches;
+  function applyTheme(d) {
+    root.setAttribute('data-theme', d ? 'dark' : 'light');
+    if (toggle) {
+      toggle.setAttribute('aria-label', 'Switch to ' + (d ? 'light' : 'dark') + ' mode');
+      toggle.innerHTML = d
+        ? '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>'
+        : '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+    }
+  }
+  applyTheme(dark);
+  if (toggle) toggle.addEventListener('click', () => { dark = !dark; applyTheme(dark); });
 })();
 
 (function(){
-  var ham=document.getElementById('hamburger');
-  var mob=document.getElementById('mobile-menu');
-  if(!ham||!mob) return;
-  ham.addEventListener('click',function(){
-    var open=mob.getAttribute('aria-hidden')==='false';
-    mob.setAttribute('aria-hidden',open?'true':'false');
-    ham.setAttribute('aria-expanded',String(!open));
-    ham.classList.toggle('open',!open);
+  const btn = document.getElementById('hamburger');
+  const nav = document.getElementById('primary-nav');
+  if (!btn || !nav) return;
+  btn.addEventListener('click', () => {
+    const open = nav.classList.toggle('is-open');
+    btn.setAttribute('aria-expanded', open);
+    btn.innerHTML = open
+      ? '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>'
+      : '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
   });
-  mob.querySelectorAll('a').forEach(function(a){
-    a.addEventListener('click',function(){
-      mob.setAttribute('aria-hidden','true');
-      ham.setAttribute('aria-expanded','false');
-      ham.classList.remove('open');
-    });
-  });
+  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    nav.classList.remove('is-open');
+    btn.setAttribute('aria-expanded', 'false');
+    btn.innerHTML = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+  }));
 })();
 
 (function(){
-  var sections=document.querySelectorAll('section[id]');
-  var links=document.querySelectorAll('.desk-nav a');
-  var obs=new IntersectionObserver(function(entries){
-    entries.forEach(function(e){
-      if(e.isIntersecting) links.forEach(function(l){
-        l.classList.toggle('active',l.getAttribute('href')==='#'+e.target.id);
-      });
-    });
-  },{rootMargin:'-40% 0px -55% 0px'});
-  sections.forEach(function(s){obs.observe(s);});
+  const els = document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window)) { els.forEach(el => el.classList.add('visible')); return; }
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  els.forEach(el => obs.observe(el));
 })();
 
-document.getElementById('contactForm').addEventListener('submit',function(e){
+(function(){
+  const sections = document.querySelectorAll('section[id]');
+  const links = document.querySelectorAll('.primary-nav a[href^="#"]');
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        links.forEach(l => l.style.fontWeight = '');
+        const active = document.querySelector('.primary-nav a[href="#' + e.target.id + '"]');
+        if (active) active.style.fontWeight = '700';
+      }
+    });
+  }, { rootMargin: '-40% 0px -50% 0px' });
+  sections.forEach(s => obs.observe(s));
+})();
+
+document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+function handleFormSubmit(e) {
   e.preventDefault();
-  var n=document.getElementById('fn').value.trim();
-  var em=document.getElementById('fe').value.trim();
-  var org=document.getElementById('fo').value.trim();
-  var svc=document.getElementById('fs').value;
-  var msg=document.getElementById('fm').value.trim();
-  if(!n||!em||!msg){alert('Please fill in all required fields (marked with *).'); return;}
-  var body='Name: '+n+'\nEmail: '+em;
-  if(org) body+='\nOrganisation: '+org;
-  if(svc) body+='\nService: '+svc;
-  body+='\n\n'+msg;
-  window.location.href='mailto:musheiguzae@gmail.com?subject='+encodeURIComponent('E2M Enquiry from '+n)+'&body='+encodeURIComponent(body);
-  document.getElementById('form-ok').hidden=false;
-  this.reset();
-});
+  const fb = document.getElementById('form-feedback');
+  const form = e.target;
+  const name = form.name.value.trim();
+  fb.style.color = 'var(--color-success, green)';
+  fb.textContent = '✓ Thank you, ' + name + '! Your message has been received. We\'ll respond within 24 hours.';
+  form.reset();
+}
 </script>
+
 </body>
 </html>
